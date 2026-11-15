@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# SQLite Database storage and WAL files
+data/*.db
+data/*.db-wal
+data/*.db-shm
+!data/.gitkeep
+
+# Production builds
+dist/
+build/
+client/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Local configs
+.env
+.env.local
+.env.*.local
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
